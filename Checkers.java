@@ -432,8 +432,8 @@ public class Checkers extends JPanel {
                     g.setColor(Color.green);
                     for (int i = 0; i < legalMoves.length; i++) {
                         if (legalMoves[i].fromCol == selectedCol && legalMoves[i].fromRow == selectedRow) {
-                            g.drawRect(2 + legalMoves[i].toCol * 40, 2 + legalMoves[i].toRow * 40, 29, 29);
-                            g.drawRect(3 + legalMoves[i].toCol * 40, 3 + legalMoves[i].toRow * 40, 27, 27);
+                            g.drawRect(2 + legalMoves[i].toCol * 40, 2 + legalMoves[i].toRow * 40, 39, 39);
+                            g.drawRect(3 + legalMoves[i].toCol * 40, 3 + legalMoves[i].toRow * 40, 37, 37);
                         }
                     }
                 }
